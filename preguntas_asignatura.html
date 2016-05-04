@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Preguntas: Asignatura "Nombrs"</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/custom.css">
+</head>
+<body>
+  <div class="container">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <h1>Preguntas: Asignatura "Nombre"</h1>
+        <label>
+          <span class="glyphicon glyphicon-search"></span>
+          Filtro búsqueda
+        </label>
+        <div class="form-group">
+          <input name="find" class="form-control" placeholder="Buscar" />
+        </div>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-md-3">
+              <label>
+                <span class="glyphicon glyphicon-star"></span>
+                Tipo de pregunta
+              </label>
+            </div>
+            <div class="col-md-9">
+              <select name="type" class="form-control">
+                <option value="1">Tipo 1</option>
+                <option value="2">Tipo 2</option>
+                <option value="3">Tipo 3</option>
+                <option value="4">Tipo 4</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-md-3">
+              <label>
+                <span class="glyphicon glyphicon-flag"></span>
+                Competencia
+              </label>
+            </div>
+            <div class="col-md-9">
+              <select name="type" class="form-control">
+                <option value="1">Competencia 1</option>
+                <option value="2">Competencia 2</option>
+                <option value="3">Competencia 3</option>
+                <option value="4">Competencia 4</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-md-3">
+              <label>
+                <span class="glyphicon glyphicon-calendar"></span>
+                Fecha
+              </label>
+            </div>
+            <div class="col-md-3">
+              <div class="input-group">
+                <span class="input-group-addon">
+                  <span class="glyphicon glyphicon-calendar"></span>
+                </span>
+                <input type="date" class="form-control" placeholder="Desde">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="input-group">
+                <span class="input-group-addon">
+                  <span class="glyphicon glyphicon-calendar"></span>
+                </span>
+                <input type="text" class="form-control" placeholder="Hasta">
+              </div>
+            </div>
+            <div class="col-md-3 text-center">
+              <button class="btn btn-lg btn-success full-width">Buscar</button>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <table class="table table-hover">
+            <thead>
+              <th>Pregunta</th>
+              <th>Tipo</th>
+              <th>Ver</th>
+              <th>Editar</th>
+              <th>Eliminar</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Pregunta 1</td>
+                <td>Tipo 1</td>
+                <td>
+                  <span class="glyphicon glyphicon-eye-open"></span>
+                </td>
+                <td>
+                  <span class="glyphicon glyphicon-edit"></span>
+                </td>
+                <td>
+                  <span class="glyphicon glyphicon-remove"></span>
+                </td>
+              </tr>
+              <tr>
+                <td>Pregunta 2</td>
+                <td>Tipo 2</td>
+                <td>
+                  <span class="glyphicon glyphicon-eye-open"></span>
+                </td>
+                <td>
+                  <span class="glyphicon glyphicon-edit"></span>
+                </td>
+                <td>
+                  <span class="glyphicon glyphicon-remove"></span>
+                </td>
+              </tr>
+              <tr>
+                <td>Pregunta 3</td>
+                <td>Tipo 3</td>
+                <td>
+                  <span class="glyphicon glyphicon-eye-open"></span>
+                </td>
+                <td>
+                  <span class="glyphicon glyphicon-edit"></span>
+                </td>
+                <td>
+                  <span class="glyphicon glyphicon-remove"></span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="form-group">
+          <button class="btn btn-lg btn-primary">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            Atrás
+          </button>
+          <div class="pull-right">
+          <button class="btn btn-lg btn-warning">
+            <span class="glyphicon glyphicon-plus"></span>
+            Crear pregunta
+          </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/jquery-1.12.3.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+</html>

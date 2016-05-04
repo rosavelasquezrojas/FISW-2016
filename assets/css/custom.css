@@ -1,0 +1,15 @@
+body {
+  margin-top: 20px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+#titleStudent{
+	text-align: center;
+}
+
+.espacio{
+	margin-bottom: 10px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Inicio</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/custom.css">
+</head>
+<body>
+  <div class="container">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <h1 id="titleStudent">Ingrese clave de la clase</h1>
+        <div class="row">
+	        <div class="col-md-4"></div>
+	        <div class="col-md-4">
+		        <label>
+		          <span class="glyphicon glyphicon-barcode"></span>
+		          Código
+		        </label>
+		        <div class="form-group">
+		          <input name="find" class="form-control" placeholder="Ingrese código" maxlength="6"/>
+		        </div>
+		      </div>
+	        <div class="col-md-4"></div>
+        </div>
+        <div class="row">
+        	<div class="col-md-4"></div>
+		      
+		      <div class="col-md-4">  
+		        <div class="form-group">
+		          <button class="btn btn-lg btn-danger" onclick="salir()">
+		            <span class="glyphicon glyphicon-chevron-left"></span>
+		            Salir
+		          </button>
+		          <div class="pull-right">
+		          <button class="btn btn-lg btn-success" onclick="recibirPregunta()">
+		            <span class="glyphicon glyphicon-share-alt"></span>
+		            Ingresar
+		          </button>
+		          </div>
+		        </div>
+	      	</div>
+        	<div class="col-md-4"></div>
+	      </div>
+
+		</div>
+	</div>
+
+	<script src="./assets/js/jquery-1.12.3.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+  function salir(){
+  	window.location.href = "inicio_alumno.html";
+  }
+  function recibirPregunta(){
+  	window.location.href = "recibir_preguntas_alumno.html";
+  }
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Inicio</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/custom.css">
+</head>
+<body>
+  <div class="container">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <h1 id="titleStudent">Bienvenido Alumno</h1>
+
+        <div class="col-md-5"></div>
+        <div class="col-md-2">
+        	<div class="form-group">
+        		<div class="row">
+			        <button class="btn btn-lg btn-success espacio" onclick="ingresarCodigo()">
+			          <span class="glyphicon glyphicon-share-alt"></span>
+			          Ingresar clase
+			        </button>
+			      </div>
+			      <div class="row">
+			        <button class="btn btn-lg btn-danger espacio">
+			          <span class="glyphicon glyphicon-chevron-left"></span>
+			          Salir
+			        </button>
+			      </div>
+		      </div>
+        </div>
+        <div class="col-md-5"></div>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/jquery-1.12.3.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+  function ingresarCodigo(){
+  	window.location.href = "codigo_clase_alumno.html";
+  }
+  </script>
+</body>
+
+</html>
